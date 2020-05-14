@@ -1,0 +1,14 @@
+2020-04-15T20:37:43+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-tabs.php on line 28
+
+2020-04-15T20:59:24+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-use.php:11
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(27): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-use.php on line 11
+

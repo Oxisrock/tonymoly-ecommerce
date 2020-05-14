@@ -1,0 +1,24 @@
+2020-04-16T23:08:17+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\comments.php:4
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\comment-template.php(1527): require()
+#1 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-comments.php(3): comments_template()
+#2 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(30): get_template_part('partials/produc...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...' in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\comments.php on line 4
+
+2020-04-16T23:31:55+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\comments.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\comment-template.php(1527): require()
+#1 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-comments.php(3): comments_template()
+#2 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(30): get_template_part('partials/produc...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...' in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\comments.php on line 5
+

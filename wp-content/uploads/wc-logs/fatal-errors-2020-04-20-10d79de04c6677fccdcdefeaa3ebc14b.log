@@ -1,0 +1,12 @@
+2020-04-20T14:25:55+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\category\single-categories.php:13
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\taxonomy-product_cat.php(5): get_template_part('partials/catego...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\category\single-categories.php on line 13
+

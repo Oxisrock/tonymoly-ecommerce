@@ -1,0 +1,778 @@
+html{
+	font-size: 10px;
+	font-family: 'MontserratAlternates-Regular' serif;
+}
+@font-face {
+	font-family: 'Muli';
+	src: url('../fonts/muli/Muli-SemiBold.ttf');
+	src: local('☺'),
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muli-Bold';
+	src: url('../fonts/muli/Muli-Bold.ttf');
+	src: local('☺'),
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-SemiBold.ttf');
+	src: local('☺'),
+	font-weight: normal;
+	font-style: normal;
+}
+
+.Nuevos-Productos {
+	width: 160px;
+	height: 20px;
+	font-family: 'Montserrat-Regular';
+	font-size: 17px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.18;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000000;
+  }
+  .Ofertas-Productos {
+	font-family: 'Montserrat-Regular';
+	font-size: 17px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.18;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000000;
+  }
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat-Regular';
+}
+a, .card .card-text {
+	font-family: 'Muli';
+}
+.price-product {
+	font-family: 'Muli-Bold';
+	font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #323232;
+}
+.navbar-toggler {
+	border: none;
+	font-size: 2rem;
+	color: #fff;
+}
+.navbar-dark .navbar-toggler {
+	color: #fff!important;
+}
+.grid-menu {
+	display: grid;
+	grid-template-columns:  1fr 2fr 1fr;
+	grid-gap: 10px;
+}
+.imagen-slick {
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 1rem;
+}
+.card img {
+	border-radius: 1rem 1rem 0 0;
+}
+.card {
+	border: none!important;
+	border-radius: 0.5rem;
+  box-shadow: 0 3px 7px 0 rgba(114, 124, 142, 0.15);
+  background-color: #ffffff;
+}
+
+.card .card-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.Suscribete-a-nuestro-newsletter {
+	height: 24px;
+	opacity: 0.8;
+	font-family: 'Montserrat-Regular';
+	font-size: 20px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	text-align: center;
+	color: #1c1c1c;
+	min-width: 342px;
+    max-width: 342px;
+	  margin:0 auto;
+  }
+
+  .No-te-pierdas-las-mejores-ofertas-que-lanzamos-semanalmente {
+	height: 38px;
+	opacity: 0.8;
+	font-family: 'Muli';
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: #1c1c1c;
+	min-width:244px;
+	max-width:244px;
+	  margin:0 auto;
+  }
+  .block-bg-grey-darkt {
+	background-color: #f2f2f2;
+  }
+  .email-submit {
+	border: none;
+	width: 100%;
+	height: 45px;
+	border-radius: 6px;
+	background-color: #1c1c1c;
+	font-size: 14px;
+  }
+  .email-input {
+	height: 45px;
+	border-radius: 6px;
+	border: solid 1px #d2d2d2;
+	background-color: #ffffff;
+  }
+  .Share-this-article {
+	height: 35px;
+	opacity: 0.8;
+	font-family: 'Muli';
+	font-size: 12px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.67;
+	letter-spacing: normal;
+	text-align: center;
+	color: #4d4d4d;
+	min-width: 330px;
+    max-width: 330px;
+	  margin:0 auto;
+  }
+
+  .Share-this-social {
+	height: 20px;
+	opacity: 0.8;
+	font-family: 'Montserrat-Regular';
+	font-size: 15px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.41;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+	min-width: 330px;
+    max-width: 330px;
+	  margin:0 auto;
+  }
+  .rss-face {
+	  color: #3b5998!important;
+  }
+  .rss-twitter {
+	color: #1da1f2;
+  }
+  .rss-pinterest {
+	color: #c8232c;
+  }
+  .contacts {
+	  font-size: 1.2rem;
+	  margin: auto;
+  }
+  .Ayuda {
+	height: 25px;
+	opacity: 0.8;
+	font-family: 'Muli';
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	text-align: left;
+	color: #1c1c1c;
+	min-width:62px;
+	max-width:62px;
+	  margin:0 auto;
+  }
+  .Tienda {
+	height: 25px;
+	opacity: 0.8;
+	font-family: 'Muli';
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.3;
+	letter-spacing: normal;
+	text-align: left;
+	color: #1c1c1c;
+	min-width:65px;
+	max-width:65px;
+	  margin:0 auto;
+  }
+  .ayuda-links {
+	  font-size: 14px;
+  }
+	.ayuda-links ul {
+		list-style: none;
+		padding-left: 0px;
+		text-align: left;
+	}
+	.tienda-links {
+		font-size: 14px;
+		text-align: left;
+		}
+	.tienda-links ul {
+		list-style: none;
+		padding-left: 0px;
+		text-align: left;
+	}
+	.imagen-slick {
+		position: relative;
+	}
+	.card a .card-text {
+		color: #575757;
+		font-size: 1.5rem;
+	}
+	
+	.card .img-card-product {
+		height: 240px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		border-radius: 0.5rem 0.5rem 0 0;
+	}
+
+	.title-section-blog {
+		font-family: 'Montserrat-Regular';
+		font-size: 28px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 0.86;
+		letter-spacing: normal;
+		text-align: center;
+		color: #1c1c1c;
+	}
+
+	.title-section-tonytv {
+		height: 34px;
+		font-family: 'Montserrat-Regular';
+		font-size: 28px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 0.86;
+		letter-spacing: normal;
+		text-align: center;
+		color: #1c1c1c;
+	}
+	.title-section-tonytv span {
+		font-size: 18px;
+		font-weight: bold;
+		color: #f75b75;
+	}
+	.card-blog .img-card-blog {
+		height: 240px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		border-radius: 0.5rem;
+	}
+	.card-blog .img-card-tonytv {
+		height: 161px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		border-radius: 0.5rem;
+	}
+
+
+	.date-blog {
+		width: 116px;
+		height: 20px;
+		font-family: 'Muli';
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.38;
+		letter-spacing: normal;
+		text-align: left;
+		color: #525252;
+	}
+	.title-blog {
+		width: 325px;
+		height: 53px;
+		font-family: 'Muli';
+		font-size: 20px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.4;
+		letter-spacing: normal;
+		text-align: left;
+	}
+	.title-blog a {
+		color: #1c1c1c;
+	}
+	.title-tonytv {
+		width: 200px;
+		height: 53px;
+		font-family: 'Muli';
+		font-size: 12px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.4;
+		letter-spacing: normal;
+		text-align: left;
+	}
+	.title-tonytv a {
+		color: #000;
+	}
+	.date-tonytv {
+		width: 84px;
+		height: 13px;
+		opacity: 0.6;
+		font-family: 'Muli';
+		font-size: 10px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.3;
+		letter-spacing: normal;
+		text-align: left;
+		color: #46362b;
+		text-transform: uppercase;
+	  }
+	.content-blog {
+		width: 327px;
+		height: 44px;
+		font-family: Muli;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		text-align: left;
+		color: #8d8d8d;
+	}
+	.add_cart {
+		padding: 8px;
+		background: #fff;
+		/* width: 18.2px; */
+		/* height: 20px; */
+		position: absolute;
+		left: 75%;
+		top: 5%;
+		/* border-radius: 5px; */
+		width: 35px;
+		height: 35px;
+		border-radius: 13px;
+	}
+	.bag-cart {
+		width: 18.2px;
+		height: 20px;
+		color: #000;
+	}
+	.add_whishlist {
+		padding: 8px;
+		background: #fff;
+		/* width: 18.2px; */
+		/* height: 20px; */
+		position: absolute;
+		left: 75%;
+		bottom: 35%;
+		/* border-radius: 5px; */
+		width: 35px;
+		height: 35px;
+		border-radius: 13px;
+	}
+	.heart-product {
+		color: #000;
+		font-size: 20px;
+	}
+	.ayuda-links ul li a {
+		font-family: 'Muli';
+    width: 141px;
+    height: 18px;
+    opacity: 0.8;
+    /* font-family: Muli; */
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+	}
+	.tienda-links ul li a {
+		font-family: 'Muli';
+    width: 141px;
+    height: 18px;
+    opacity: 0.8;
+    /* font-family: Muli; */
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+	}
+	.Share-this-pays
+	{
+		height: 18px;
+		opacity: 0.8;
+		font-family: Montserrat-Regular;
+		font-size: 14px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.71;
+		letter-spacing: normal;
+		text-align: center;
+		color: #000000;
+	}
+	.copy {
+		height: 39px;
+		background-color: #1c1c1c;
+		text-align: center;
+	}
+	.copy span {
+	
+		height: 15px;
+		font-family: Muli;
+		font-size: 12px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 2;
+		letter-spacing: normal;
+		color: #ffffff;
+	}
+	.slick-dots {
+		position: absolute;
+		bottom: 5px;
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: center;
+	}
+	.slick-dots li.slick-active button:before {
+		opacity: .75;
+		color: #fff;
+	}
+	.slick-dots li {
+		position: relative;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		margin: 0px;
+		padding: 0;
+		cursor: pointer;
+	}
+	.slick-dots li button:before {
+		font-family: 'slick';
+		font-size: 6px;
+		line-height: 20px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		content: '•';
+		text-align: center;
+		opacity: 1;
+		color: #d6d6d6;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.slick-dotted.slick-slider {
+		margin-bottom: 5px;
+	}
+	.title-product {
+		height: 23px;
+		font-family: Muli;
+		font-size: 18px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.44;
+		letter-spacing: normal;
+		text-align: left;
+		color: #46362b;
+	}
+	.bange {
+		width: 51px;
+		height: 16px;
+		padding: 0px 6px;
+		border-radius: 2px;
+ 	 	background-color: #f75b75;
+		font-family: Muli;
+		font-size: 11px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.27;
+		letter-spacing: normal;
+		text-align: left;
+		color: #ffffff;
+	}
+	.excerpt-product {
+		font-family: Muli;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.63;
+		letter-spacing: normal;
+		text-align: left;
+		color: #575757;
+	}
+	.price-product-single .woocommerce-Price-amount.amount {
+		width: 199px;
+		height: 25px;
+		font-family: Muli;
+		font-size: 20px;
+		font-weight: bold;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 0.9;
+		letter-spacing: normal;
+		text-align: left;
+		color: #46362b;
+	}
+	.woocommerce-product-details__short-description {
+		display: none;
+	}
+	ol.flex-control-nav.flex-control-thumbs {
+		display: none;
+	}
+	.product_meta {
+		display: none;
+	}
+	button.single_add_to_cart_button.btn.btn-default {
+	    border-radius: 6px;
+    background-color: #f75b75;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 44px;
+}
+button.single_add_to_cart_button {
+	text-shadow: 0 3px 6px rgba(214, 214, 214, 0.29);
+	font-family: Muli;
+	font-size: 15px;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.27;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+button.single_add_to_cart_button svg{
+	height: 18px;
+    fill: white;
+}
+input.qty {
+	border: solid 1px #46362b;
+    background-color: #ffffff;
+    height: 34px;
+    width: 30px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 20px;
+    text-align: center;
+}
+.qty_button button {
+	width: 30px;
+    height: 35px;
+    border: solid 1px #46362b;
+    background-color: #46362b;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 21px;
+}
+.cantidad p {
+	width: 55px;
+	height: 16px;
+	font-family: Muli;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: normal;
+	text-align: left;
+	color: #46362b;
+}
+.button-extras a {
+	width: 100%;
+	height: 44px;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	border: solid 1.5px #46362b;
+	text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	font-family: Muli;
+	font-size: 13px;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.23;
+	letter-spacing: normal;
+	text-align: center;
+	color: #46362b;
+	padding: 1rem;
+}
+/*tabs products*/
+.tabs-description .nav-pills .nav-item a {
+	font-family: Muli;
+	font-size: 12px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1.4rem;
+}
+body.product {
+	background-color: #f1f1f0;
+}
+.fondo {
+	background-color: #fff;
+}
+.separacion-genera02 {
+	background-color: #fff;
+}
+.tabs-description {
+	background-color: #fff;
+}
+.nav-pills .nav-link {
+	border-radius: 0px;
+}
+.tabs-description .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #f75b75;
+	border-radius: 0px;
+	background-color: transparent;
+	border-bottom: 2px solid #f75b75;
+}
+.tabs-text {
+	font-family: Muli;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.57;
+	letter-spacing: normal;
+	text-align: left;
+	color: #46362b;
+}
+/*Comments products*/
+h2.woocommerce-Reviews-title {
+	display: none;
+}
+.commentlist {
+	list-style: none;
+}
+img.avatar {
+    border-radius: 50%;
+}
+ul.children {
+    list-style: none;
+}
+.comentarios {
+	background-color: #fff;
+}
+.comment_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.reviews-stars {
+	font-size: 1rem;
+}
+.reviews-stars .fas.fa-star {
+	color: #ffdd80;
+	text-shadow: 1px 0px 0px rgba(177, 60, 97, 0.38);
+}
+.reviews-stars .far.fa-star {
+	color: rgba(177, 60, 97, 0.75);
+}
+.comentarios .form-submit .submit{
+	border-radius: 6px;
+    background-color: #f75b75;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 44px;
+} 
+span#reply-title {
+	display: none;
+}
+p.comment-notes {
+	display: none;
+}
+p label {
+	display: none;
+}
+/*Blog*/
+.text-center {
+	text-align: center;
+}
+.blog {
+	height: 27px;
+	font-family: 'Montserrat-Regular';
+	font-size: 22px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.09;
+	letter-spacing: normal;
+	text-align: center;
+	color: #1c1c1c;
+	margin: auto;
+}
+.flecha {
+	height: 17.5px;
+	opacity: 0.8;
+	color: #000000;
+	font-family: 'Montserrat-Regular';
+	font-size: 22px;
+}
+.grid-blog {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+}
+.art img {
+	border-radius: 5px;
+}

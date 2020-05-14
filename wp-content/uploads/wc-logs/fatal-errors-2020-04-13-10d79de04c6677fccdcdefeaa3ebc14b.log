@@ -1,0 +1,603 @@
+2020-04-13T15:37:21+00:00 CRITICAL syntax error, unexpected 'do_action' (T_STRING) in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\content-product.php on line 58
+
+2020-04-13T16:13:12+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\category\single-categories.php:13
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/catego...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\category\single-categories.php on line 13
+
+2020-04-13T16:14:25+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\category\single-categories.php:13
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/catego...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\category\single-categories.php on line 13
+
+2020-04-13T16:20:12+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:6
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 6
+
+2020-04-13T16:20:43+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:6
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 6
+
+2020-04-13T16:21:16+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:8
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 8
+
+2020-04-13T16:21:40+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:8
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 8
+
+2020-04-13T16:25:45+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:8
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(5): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 8
+
+2020-04-13T20:45:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php on line 287
+
+2020-04-13T20:53:24+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T20:54:18+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T20:54:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_html() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T20:54:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T21:03:23+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(25): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdo in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T21:04:40+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:11
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 11
+
+2020-04-13T21:04:53+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(26): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdo in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T21:10:53+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(26): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdo in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T21:12:16+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:11
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 11
+
+2020-04-13T21:12:45+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:11
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(8): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 11
+
+2020-04-13T21:17:20+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:11
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 11
+
+2020-04-13T21:18:05+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Product() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:1
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 1
+
+2020-04-13T21:22:07+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(9): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T21:36:48+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(10): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs. in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php on line 25
+
+2020-04-13T21:37:43+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(11): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs. in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php on line 25
+
+2020-04-13T21:37:54+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(11): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs. in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php on line 25
+
+2020-04-13T21:40:36+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php:25
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1565): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_show_product_sale_flash('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(11): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs. in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\sale-flash.php on line 25
+
+2020-04-13T21:41:28+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:13
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 13
+
+2020-04-13T21:41:44+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:13
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 13
+
+2020-04-13T21:43:13+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating(Object(WC_Product))
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(27): do_action('woocommerce_sin...', Object(WC_Product))
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php( in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T21:43:55+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating(Object(WC_Product))
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(27): do_action('woocommerce_sin...', Object(WC_Product))
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php( in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T21:45:44+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on string in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1683
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(24): woocommerce_quantity_input(Array)
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#3 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#5 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1683
+
+2020-04-13T21:46:37+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on string in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1683
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(22): woocommerce_quantity_input(Array)
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#3 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#5 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1683
+
+2020-04-13T21:47:17+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:13
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 13
+
+2020-04-13T21:47:30+00:00 CRITICAL Uncaught Error: Call to a member function get_min_purchase_quantity() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:22
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 22
+
+2020-04-13T21:47:51+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on string in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1683
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(24): woocommerce_quantity_input(Array)
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#3 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#5 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1683
+
+2020-04-13T21:48:26+00:00 CRITICAL Uncaught Error: Call to a member function get_min_purchase_quantity() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:22
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 22
+
+2020-04-13T21:48:54+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_min_purchase_quantity() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:22
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 22
+
+2020-04-13T21:50:54+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating(Object(WC_Product))
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(27): do_action('woocommerce_sin...', Object(WC_Product))
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\template.php( in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T21:52:07+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('happy-ninja-2')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(36): do_action('woocommerce_sin...', 'happy-ninja-2')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xamp in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T22:16:11+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(18): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 5
+
+2020-04-13T22:21:32+00:00 CRITICAL Uncaught Error: Call to a member function has_weight() on string in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3322
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-variations.php(3): wc_display_product_attributes('happy-ninja-2')
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#3 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php(14): get_template_part('partials/produc...')
+#5 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168):  in C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3322
+
+2020-04-13T22:43:41+00:00 CRITICAL Uncaught Error: Call to undefined function post_thumbnail_url() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\content-single-product.php(46): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\shortcodes.php(343 in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 5
+
+2020-04-13T22:43:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php:5
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\content-single-product.php(46): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\tonymoly\wp-includes\shortcodes.php in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-gallery.php on line 5
+
+2020-04-13T23:04:58+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\content-single-product.php(63): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T23:05:02+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php:28
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1519): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(287): woocommerce_template_single_rating('')
+#3 C:\xampp\htdocs\tonymoly\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\tonymoly\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\content-single-product.php(63): do_action('woocommerce_sin...')
+#6 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\tonymoly\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\woocommerce\single-product\rating.php on line 28
+
+2020-04-13T23:26:53+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:12
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 12
+
+2020-04-13T23:26:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:12
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 12
+
+2020-04-13T23:30:39+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(22): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T23:31:04+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:9
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(22): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 9
+
+2020-04-13T23:31:27+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:10
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 10
+
+2020-04-13T23:31:46+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_price_html() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:10
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 10
+
+2020-04-13T23:31:54+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_html() in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:10
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 10
+
+2020-04-13T23:32:12+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on string in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php:12
+Stack trace:
+#0 C:\xampp\htdocs\tonymoly\wp-includes\template.php(725): require()
+#1 C:\xampp\htdocs\tonymoly\wp-includes\template.php(672): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\tonymoly\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\single-product.php(21): get_template_part('partials/produc...')
+#4 C:\xampp\htdocs\tonymoly\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tonymoly\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tonymoly\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tonymoly\wp-content\themes\tonymoly\partials\product\product-description.php on line 12
+
